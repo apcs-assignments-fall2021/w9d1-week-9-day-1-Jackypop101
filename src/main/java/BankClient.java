@@ -34,15 +34,13 @@ public class BankClient {
 //print summary
 //Account number 101134 has a balance of: $50
 //Hi, Nathan Lin! What command would you like to carry out? (withdraw/deposit/check balance/check account number/set preferred name/print summary)
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("What is your preferred name?");
-        String name = scan.nextLine();
-        BankAccount account = new BankAccount(0, 101134, name);
-        System.out.println("Hi, " + name + "! Your account number is 101134. What command would you like to carry out? (withdraw/deposit/check balance/check account number/set preferred name/print summary"");
-        );
-        String x = scan.nextLine();
-
-
-    }
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("What is your preferred name?");
+//        String name = scan.nextLine();
+//        BankAccount account = new BankAccount(0, 101134, name);
+//        System.out.println("Hi, " + name + "! Your account number is 101134. What command would you like to carry out? (withdraw/deposit/check balance/check account number/set preferred name/print summary"");
+//        );
+//        String x = scan.nextLine();
+//    }
 }
